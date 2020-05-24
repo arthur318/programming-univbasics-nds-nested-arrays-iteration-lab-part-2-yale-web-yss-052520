@@ -26,4 +26,7 @@ array_of_daily_temperatures = [
   [25, 29, 30, 36, 39, 45, 49, 50, 52, 57, 58, 59, 60, 66, 65, 59, 54, 49, 45, 40, 36, 30, 26, 24],
   [30, 36, 38, 39, 40, 45, 47, 49, 50, 59, 60, 60, 65, 63, 61, 56, 49, 43, 40, 39, 35, 32, 23, 22],
 ]
-find_min_in_nested_arrays(array_of_daily_temperatures)
+
+pp find_min_in_nested_arrays(array_of_daily_temperatures)
+
+# [18, 17, 13, 19, 20, 24, 22]
