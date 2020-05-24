@@ -15,6 +15,7 @@ def find_min_in_nested_arrays(src)
     result_array << min_element
     row_index +=1
   end
+  result_array
 end
 
 array_of_daily_temperatures = [
