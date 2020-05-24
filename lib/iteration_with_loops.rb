@@ -5,12 +5,13 @@ def find_min_in_nested_arrays(src)
   row_index = 0 
   while row_index < src.count do
     element_index = 0
+    min_element = 0 
     while element_index < src[row_index].count do
       min_element = src[row_index][0]
       if src[row_index][element_index] < min_element
         min_element = src[row_index][element_index]
       else 
-        min_element = src[row_index][0]
+        min_element = src[row_index]
       end
         element_index += 1 
     end
@@ -19,6 +20,22 @@ def find_min_in_nested_arrays(src)
   end
   result_array
 end
+
+
+=begin
+def find_min_in_nested_arrays
+  result_array = []
+  row_index = 0 
+  while row_index < src.count do
+    element_index = 0 
+    min_element = 0 
+    while element_index < src[row_index].count do 
+      min_element = src[row_index][element_index]
+      if src[row_index][element_index] < min_element
+        min_element = src[row_index][element_index]
+      end
+=end
+
 
 array_of_daily_temperatures = [
   [19, 21, 24, 26, 30, 34, 37, 39, 40, 45, 48, 50, 55, 60, 63, 59, 49, 45, 40, 39, 34, 32, 25, 18],
